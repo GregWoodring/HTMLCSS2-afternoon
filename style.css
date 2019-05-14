@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight: 400; */
+}
+
+html{
+    background-color: #E1E7FA;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    width: 95vw;
+    margin: 2.5vw;
+    /* background-color: white; */
+    align-items: center;
+    justify-content: space-between;
+
+    
+}
+
+
+
+.menuContainer{
+    display: flex;
+    /* background-color: grey; */
+}
+
+.menuContainer > div {
+    margin: 0 2.5em;
+}
+
+.sideContainer{
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.navItem{
+    margin: 20px;
+    flex-grow: 0;
+    
+}
+
+.bodyPiece{
+    background-color: #fff;
+    width: 95vw;
+    margin: 2.5vw;
+    /* padding: 20em; */
+    height: 200vh;
+}
+
+#logo{
+    height: 2.5em;
+    width: 2.5em;
+    background-color: black;
+}
+
+#logoContainer > div{
+    display: inline-block;
+}
+
+#inIcon{
+    height: 2.5em;
+    width: 2.5em;
+    background-color: black;
+    flex-grow: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+.innerPiece{
+    background-color: #E1E7FA;
+    width: 90%;
+    margin: 10% 0 10% 10%;
+    display: flex;
+    flex-direction: column;
+    padding: 5em 10em;
+    font-size: 2em;
+}
+
+
+.innerPieceContents{
+    margin: 1em 0;
+    
+}
+
+.innerPieceContainer{
+    width: 18em;
+}
+
+
+.button{
+    background-color: #0828CC;
+    border-radius: 1.5em;
+    color: white;
+    font-size: .75rem;
+    padding: 1em 5em;
+    border: 0;
+    /* flex-grow: .5; */
+}
+
+.button:hover{
+    background-color: transparent;
+    border: 1px solid #0828CC;
+    color: #0828CC;
+}
+
+.sidePiece{
+    background-color: #fbfbfb;
+    width: 60%;
+    /* margin: 0 0 0 40%; */
+    padding: 10em 8em;
+    /* align-items: flex-end; */
+    /* justify-content: flex-end; */
+    /* display: inline-block; */
+}
+
+.sidePieceContainer{
+    width: 75%;
+    
+
+
+}
+
+.sidePieceContainer > h1 {
+    font-size: 3.5em;
+}
+
+.sidePieceContainer > p{
+    margin-top: 2em;
+}
+
+.sideLogo{
+    height: 134px;
+    width: 134px;
+    background-color: black;
+    /* position: absolute; */
+    /* align-items: flex-end; */
+    /* justify-content: flex-end; */
+    /* flex-wrap: nowrap; */
+    
+}
+
+.bodyContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    
+    
+}
